@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WEB STATIS</title>
+        <link rel="stylesheet" href="web.css">
+        <script type="text/javascripst " src="jQuery.js">
+            
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <nav>
+                <img src="logo1.png" width="350" height="350">
+                <ul>
+                    <li><a href="#home"><button><b>Home</b></button></a></li>
+                    <li><a href="#menu"><button><b>Menu</b></button></a></li>
+                    <li><a href="#harga"><button><b>Harga</b></button></a></li>
+                    
+    
+                </ul>
+            </nav>
+        </div>
+        
+        
+        <div class="home">
+            <a name="home">
+                <div class="home-text">
+                    <h2>WAFFLE CRAZY </h2>
+                    <p>Mau punya teman saat nugas, kerja, <br><br>
+                    atau santai-santai yang dapat membuat nyaman?</p>
+                    <p><b>WAFFLE CRAZY solusinya!!!</b></p>
+                
+                </div>
+                <div class="home-image">
+                    <img src="wf12.jpg" align="right">
+                </div>
+            </a>
+        </div>
+    
+    <!-- Catalog -->
+    
+    </div>
+    <div class="menu">
+        <a name="menu">
+            <div class="menu-item">
+                <div class="menu-1"></div>
+                <div class="menu-2"></div>
+                <div class="menu-3"></div>
+                <div class="menu-4"></div>
+                <div class="menu-5"></div>
+                <div class="menu-6"></div>
+                <div class="menu-7"></div>
+                <div class="menu-8"></div>
+            </div>
+        </a>
+     </div>
+        
+     
+    <div class="harga" id="harga">
+        <a name="harga">
+            <h2>Daftar Harga</h2>
+                <div class="catalog">
+                    <div class="catalog-item">
+                        <img src="wf1.jpg" alt="">
+                        <div class="desc">
+                            <div class="title">
+                                <h5>Waffle Stick</h5>
+                            </div>
+                            <div class="price">
+                                Rp. 15.000
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="catalog-item">
+                        <img src="wf2.jpg" alt="">
+                        <div class="desc">
+                            <div class="title">
+                                <h5>Stoberry Waffle</h5>
+                            </div>
+                            <div class="price">
+                                Rp. 13.000
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="catalog-item">
+                        <img src="wf4.jpg" alt="">
+                        <div class="desc">
+                            <div class="title">
+                                <h5>Sweet Banana Waffle</h5>
+                            </div>
+                            <div class="price">
+                                Rp. 17.000
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="catalog-item">
+                        <img src="wf5.jpg" alt="">
+                        <div class="desc">
+                            <div class="title">
+                                <h5>Vegetarian WWaffle</h5>
+                            </div>
+                            <div class="price">
+                                Rp. 22.000
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="catalog-item">
+                        <img src="wf12.jpg" alt="">
+                        <div class="desc">
+                            <div class="title">
+                                <h5>Chocolatte Waffle</h5>
+                            </div>
+                            <div class="price">
+                                Rp. 16.000
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="catalog-item">
+                        <img src="wf9.jpg" alt="">
+                        <div class="desc">
+                            <div class="title">
+                                <h5>Chocolatte and Cream Waffle</h5>
+                            </div>
+                            <div class="price">
+                                Rp. 18.000
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="catalog-item">
+                        <img src="wf14.jpg" alt="">
+                        <div class="desc">
+                            <div class="title">
+                                <h5>Choco Peanut Waffle</h5>
+                            </div>
+                            <div class="price">
+                                Rp. 19.000
+                            </div>
+                        </div>
+                         
+                    </div>
+                    <div class="catalog-item">
+                        <img src="wf7.jpg" alt="">
+                        <div class="desc">
+                            <div class="title">
+                                <h5>Stroberry Caramel Waffle</h5>
+                            </div>
+                            <div class="price">
+                                Rp. 17.000
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+         </a>
+    </div>
+
+    
+    <button class="yuk" onclick="beli()">Yuk Beli Sekarang!</button>
+    
+    <form name="form" onchange="tampilMenu()">
+    <div class="beli" id="beli" style="display: none;">
+        
+        <center>
+            <h2 id="title"> Menu Waffle Crazy </h2>
+        </center>
+        <div class="login" id="main">
+            <div>
+                <label>Nama Pelanggan:</label><br>
+                <input type="text" name="nama pelanggan" id="nama pelanggan" /><br>
+            </div>
+            
+            
+            <div>
+                <label>Pilih Menu Varian:</label><br>
+         
+                <select name="PilihMenu" id="pilih menu">
+                   <option value="Pilih Menu Desert">Pilih Menu Varian </option>
+                   <option value="Waffle Stick">Waffle Stick</option>
+                   <option value="Stoberry Waffle">Stoberry Waffle</option>
+                   <option value="Sweet Banana Waffle">Sweet Banana Waffle</option>
+                   <option value="Vegetarian Waffle">Vegetarian Waffle</option>
+                   <option value="Chocolatte Waffle">Chocolatte Waffle</option>
+                   <option value="Chocolatte and Cream Waffle">Chocolatte and Cream Waffle</option>
+                   <option value="Choco Peanut Waffle">Choco Peanut Waffle</option>
+                   <option value="Stroberry Caramel Waffle">Stroberry Caramel Waffle</option>
+                    
+                </select>
+            </div>
+            <div>
+                <label>Harga :</label><br>
+                <input type="text" name="hargamenu" id="harga" />
+            </div>
+            <div>
+                <label>Jumlah Pesanan:</label><br>
+                <input type="text" name="jumlahpesanan" id="jumlah pesanan" />
+            </div>
+            <div>
+                <label>Total Pesanan:</label><br>
+                <textarea name="totalp" id="total pesanan"></textarea><br>
+            </div>
+
+            <div>
+                <input type="button" value="Tampilkan" >
+            </div>
+           
+    
+        </div>
+    
+        
+    </div>
+    </form>
+
+    <script>
+        let count=0;
+        function beli(){
+            
+            console.log("count " + count)
+            if (count % 2 == 0){
+                document.getElementById("beli").style.display="block";
+            }else{
+                document.getElementById("beli").style.display="none";
+            }
+            count++;
+        }
+    </script>
+        <script>
+        var items = document.querySelectorAll("nav-items");
+        for (var i = 0; i < items.length; i++) {
+            items[i].addEventListener("click", function() {
+                this.classList.add("active");
+            })
+        }
+        function tampilMenu() {
+            var tujuan = (document.form.PilihMenu.value);
+            var jumlahpaket = parseFloat (document.form.jumlahpesanan.value);
+            var ht = 0.0 ;
+            var sub = 0.0;
+
+            if (tujuan == "Waffle Stick") {
+
+                ht = 15000;
+            }
+            else if(tujuan == "Stoberry Waffle")
+            {
+                ht = 13000;
+            }
+            else if(tujuan == "Sweet Banana Waffle")
+            {
+                ht = 17000;
+            }
+            else if(tujuan == "Vegetarian Waffle")
+            {
+                ht = 22000;
+            }
+            else if(tujuan == "Chocolatte Waffle")
+            {
+                ht = 16000;
+            }
+            else if(tujuan == "Chocolatte and Cream Waffle")
+            {
+                ht = 18000;
+            }
+            else if(tujuan == "Choco Peanut Waffle")
+            {
+                ht = 19000;
+            }
+            else (tujuan == "Stroberry Caramel Waffle")
+            {
+                ht = 17000;
+            }
+            sub = jumlahpaket*ht;
+
+            document.form.hargamenu.value=eval(ht);
+            document.form.totalp.value=eval(sub);
+        }
+        
+        
+        
+    </script>
+        
+    <!-- Catalog -->
+    <!-- Footer -->
+    <div class="footer" align="center">
+        <div class="wrapper">
+            <p>Made With Shofiatul Ayu A. &copy; 2022. All Right Reserved</p>
+        </div>
+    </div>
+    <!-- End Footer -->
+    <script src="js/scripts.js"></script>
+    <!-- GetButton.io widget -->
+<script type="text/javascript">
+    (function () {
+        var options = {
+            whatsapp: "085746764280", // WhatsApp number
+            call_to_action: "Hubungi Kami", // Call to action
+            position: "right", // Position may be 'right' or 'left'
+        };
+        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
+<!-- /GetButton.io widget -->
+    </body>
+    
+
+</html>
